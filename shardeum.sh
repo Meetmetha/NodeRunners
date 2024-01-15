@@ -8,3 +8,4 @@ shardeum_directory=$(find ~ -type d -name ".shardeum")
 cd "$shardeum_directory"
 sudo bash shell.sh
 operator-cli gui start
+echo "Success: Visit your VPC IP address at port 8080"
