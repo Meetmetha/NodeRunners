@@ -11,7 +11,7 @@ This are just shell scripts to help you automate package installations so you do
    - (Open port 8080 as per your VPC provider settings)
 2. **Avail**
    - screen -S availscreen
-   - wget https://raw.githubusercontent.com/Meetmetha/NodeRunners/main/shardeum.sh && sudo bash avail.sh
+   - wget https://raw.githubusercontent.com/Meetmetha/NodeRunners/main/avail.sh && sudo bash avail.sh
    - (Press Enter when ask for config we will use default)
    - Once you see node running detach from screen by pressing "Ctrl A and then Ctrl D"
 
