@@ -10,7 +10,7 @@ This are just shell scripts to help you automate package installations so you do
    - (Enter your password when asked for accessing Dashboard)
    - (Open port 8080 as per your VPC provider settings)
 2. **Avail**
-   - screen -S availscreen
+   - sudo apt install screen && screen -S availscreen
    - wget https://raw.githubusercontent.com/Meetmetha/NodeRunners/main/avail.sh && sudo bash avail.sh
    - (Press Enter when ask for config we will use default)
    - Once you see node running detach from screen by pressing "Ctrl A and then Ctrl D"
