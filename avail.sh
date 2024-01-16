@@ -11,5 +11,4 @@ git clone https://github.com/availproject/avail.git
 cd avail
 mkdir -p output
 mkdir -p data
-screen -S avail
 cargo run --locked --release -- --chain goldberg --validator -d ./output
