@@ -12,4 +12,4 @@ cd /var/lib
 mkdir bevmnode
 sudo docker pull btclayer2/bevm:v0.1.1
 sudo chmod 777 /var/run/docker.sock
-sudo docker run -d -v /var/lib/bevmnode:/root/.local/share/bevm btclayer2/bevm:v0.1.1 bevm --chain=testnet --name="$name_parameter" --pruning=archive “--telemetry-url=wss://telemetry.bevm.io/submit 0”
+sudo docker run -d -v /var/lib/bevmnode:/root/.local/share/bevm btclayer2/bevm:v0.1.1 bevm --chain=testnet --name="$name_parameter" --pruning=archive --telemetry-url="wss://telemetry.bevm.io/submit 0”
