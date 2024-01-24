@@ -14,6 +14,11 @@ This are just shell scripts to help you automate package installations so you do
    - wget https://raw.githubusercontent.com/Meetmetha/NodeRunners/main/avail.sh && sudo bash avail.sh
    - (Press Enter when ask for config we will use default)
    - Once you see node running detach from screen by pressing "Ctrl A and then Ctrl D"
+3. **BEVM**
+   - sudo apt install screen && screen -S bevm
+   - wget https://raw.githubusercontent.com/Meetmetha/NodeRunners/main/bevm.sh && sudo bash bevm.sh --address=0x0000YourWalletAddress0000
+   - (While copying above command make sure you add your address next to --address=)
+   - Once you see node running detach from screen by pressing "Ctrl A and then Ctrl D"
 
 Send me request for any more nodes will add them here 🚀
 
